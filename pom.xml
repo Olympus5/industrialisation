@@ -110,6 +110,25 @@
         <artifactId>maven-pmd-plugin</artifactId>
         <version>2.5</version>
       </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-changelog-plugin</artifactId>
+      </plugin>
     </plugins>
   </reporting>
+
+  <scm>
+    <connection>scm:git:git://Olympus5/industrialisation.git</connection>
+    <url>https://github.com/Olympus5/industrialisation</url>
+    <developerConnection>scm:git:git@github.com:Olympus5/industrialisation.git</developerConnection>
+  </scm>
+
+  <developers>
+    <developer>
+      <email>erwan.iquel@gmail.com</email>
+      <name>Erwan IQUEL</name>
+      <url>https://github.com/Olympus5</url>
+      <id>Olympus5</id>
+    </developer>
+  </developers>
 </project>
